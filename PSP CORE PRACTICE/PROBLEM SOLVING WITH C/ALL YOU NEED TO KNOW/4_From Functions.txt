@@ -1,0 +1,7 @@
+Functions are reusable blocks of code that perform specific tasks, enhancing modularity and reusability. 
+
+Functions in C are categorized into built-in and user-defined functions, which can take parameters and return values. 
+
+Scope defines where a variable can be accessed (local, global, block), while lifetime determines how long it exists in memory (automatic, static, dynamic). 
+
+Recursion involves a function calling itself, solving problems by breaking them into smaller instances, with a base case to stop the recursion. 

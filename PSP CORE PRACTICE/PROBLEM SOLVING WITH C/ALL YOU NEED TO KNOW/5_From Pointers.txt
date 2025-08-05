@@ -1,0 +1,9 @@
+Explain the concept of pointers, their syntax.​
+
+Use pointer arithmetic to traverse arrays and manipulate memory efficiently.​
+
+Illustrate how array names act as pointers and use pointers to access array elements.
+
+Utilize pointers to pointers for multi-level indirection.​
+
+Allocate, reallocate, and free memory dynamically using pointers.​

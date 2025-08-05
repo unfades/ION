@@ -1,0 +1,9 @@
+Explain command line arguments and their purpose in C programs.
+
+Recall the syntax of int main(int argc, char *argv[]).
+
+Explain basic bitwise operations like setting, clearing, and toggling bits.
+
+Identify bitwise operators in C (&, |, ^, ~, <<, >>).
+
+Describe the role of bit manipulation in optimizing memory usage and performance.

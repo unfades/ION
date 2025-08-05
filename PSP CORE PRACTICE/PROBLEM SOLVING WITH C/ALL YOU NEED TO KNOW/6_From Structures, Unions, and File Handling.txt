@@ -1,0 +1,7 @@
+Explain how to group different types of data using structures for better organization.
+
+Describe how unions save memory by sharing space among their members.
+
+Describe how to organize and manage complex hierarchical data by using structures within structures.
+
+Learn to perform file operations like reading, writing, and managing files.

@@ -1,0 +1,7 @@
+Decision making statements control the flow of execution.
+
+Looping statements enable repetitive execution of code blocks based on a condition.
+
+Key types include for, while and do-while.
+
+Jump statements like break, continue etc. modify program flow by exiting or skipping parts of code.

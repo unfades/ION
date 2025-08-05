@@ -1,0 +1,7 @@
+An array is a collection of elements of the same type and a string is a sequence of characters. 
+
+Arrays may be single dimensional or multidimensional. 
+
+A multidimensional array is basically an array of arrays. 
+
+Both arrays and strings allow indexed access to their elements. Elements in an array and characters in a string can be accessed using an index. 

@@ -1,0 +1,9 @@
+Explain the role of the C preprocessor and its impact on the compilation process.
+
+Use file inclusion directives (#include) to include header files in a program.
+
+Define and use macros (#define) for constants and inline code.
+
+Apply conditional compilation directives (#ifdef, #ifndef, #endif) to write flexible code.
+
+Describe other directives, such as #undef, #pragma, and #line.
