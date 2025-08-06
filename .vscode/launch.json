@@ -2,6 +2,34 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "BroCodeMergeSort",
+      "request": "launch",
+      "mainClass": "SearchingNSortingAlgorithms.BroCodeMergeSort",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "PracticeAssignment1",
+      "request": "launch",
+      "mainClass": "SearchingNSortingAlgorithms.PracticeAssignment1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "PracticeAssignment1",
+      "request": "launch",
+      "mainClass": "StacksAndQueues.PracticeAssignment1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "PracticeAssignment1",
+      "request": "launch",
+      "mainClass": "PracticeAssignment1",
+      "projectName": "PSPION_349b735"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
