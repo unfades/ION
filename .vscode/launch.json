@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IntermediateSkillsEx1",
+      "request": "launch",
+      "mainClass": "SkillBuildingExercises.IntermediateSkillsEx1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "BeginnerSkillsEx1",
+      "request": "launch",
+      "mainClass": "SkillBuildingExercises.BeginnerSkillsEx1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "BeginnerSkillsEx1",
+      "request": "launch",
+      "mainClass": "BeginnerSkillsEx1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
       "name": "BroCodeMergeSort",
       "request": "launch",
       "mainClass": "SearchingNSortingAlgorithms.BroCodeMergeSort",

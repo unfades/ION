@@ -66,6 +66,16 @@ class SortingAndSearching{
             r++;
         }
     }
+
+    public static void linearSearch(String find,List<String> a){
+        int j = 0;
+        boolean found = false;
+        for(String i: a){
+            if(find.equals(i)){System.out.println("Found "+ i +" at index " + j); found = true;} 
+            j++;
+        }
+        if(!found) System.out.println("Sorry the string "+ find +" was not found...");
+    }
 }
 
 public class PracticeAssignment1 {
@@ -90,6 +100,7 @@ public class PracticeAssignment1 {
         myList2.add("Eight of Hearts");
         SortingAndSearching.mergeSort(myList2);
         System.out.println(myList2);
+        SortingAndSearching.linearSearch("Ten of Hearts", myList2);
     }
 }
 
