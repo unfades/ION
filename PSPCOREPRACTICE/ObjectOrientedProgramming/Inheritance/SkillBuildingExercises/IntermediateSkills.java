@@ -94,7 +94,6 @@ class RemoteWorker extends Employee{
 //multi-level inheritance implemented now RemoteEmployee can use both RemoteWorker and Employee done
 class RemoteEmployee extends RemoteWorker{
     //this one will display all the inherited attributes from the other classes in this one's method
-
     public void setRemoteEmployee(String name, int employeeID, String location){
         this.name = name;
         this.employeeID = employeeID;

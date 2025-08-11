@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AdvancedSkills",
+      "request": "launch",
+      "mainClass": "Inheritance.SkillBuildingExercises.AdvancedSkills",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
       "name": "IntermediateSkills",
       "request": "launch",
       "mainClass": "Inheritance.SkillBuildingExercises.IntermediateSkills",
