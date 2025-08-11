@@ -83,7 +83,7 @@ class CourseRegistration{
     }
 
     public void completeModule2(int studentID) {
- 
+    
     List<Object> studentData = (List<Object>) studentTracker.get(studentID);
     double currentCompletion = Double.parseDouble((String) studentData.get(3));
     if (currentCompletion >= 20.0) return;
@@ -97,7 +97,7 @@ class CourseRegistration{
         studentTracker.set(studentID, studentData);
     }
     public void completeModule3(int studentID) {
-
+    
     List<Object> studentData = (List<Object>) studentTracker.get(studentID);
     double currentCompletion = Double.parseDouble((String) studentData.get(3));
     if (currentCompletion >= 100.0) return;
@@ -110,7 +110,6 @@ class CourseRegistration{
         }
         studentTracker.set(studentID, studentData);
     }
-
 }
 
 public class PracticeAssignment1 {

@@ -42,19 +42,19 @@ public class PracticeAssignment1{
         	int move = Integer.parseInt(""+(commandArray[i].charAt(commandArray[i].length()-1)));
           	upDown+=move;
             if(upDown>4) upDown = 4; //resetting if out of the grid
-            if(upDown<0) upDown = 0; 
+            if(upDown<0) upDown = 0;
       }
       if(commandArray[i].contains("r") || commandArray[i].contains("R")){
         	int move = Integer.parseInt(""+(commandArray[i].charAt(commandArray[i].length()-1)));
           	leftRight+=move;
             if(leftRight>4) leftRight = 4; //resetting if out of the grid
-            if(leftRight<0) leftRight = 0; 
+            if(leftRight<0) leftRight = 0;
       }
       if(commandArray[i].contains("l") || commandArray[i].contains("L")){
         	int move = Integer.parseInt(""+(commandArray[i].charAt(commandArray[i].length()-1)));
           	leftRight-=move;
             if(leftRight>4) leftRight = 4; //resetting if out of the grid
-            if(leftRight<0) leftRight = 0; 
+            if(leftRight<0) leftRight = 0;
       }
     }
     //my solution assumes that there is no input where the numbers go beyong single digits with U D L R directions..

@@ -41,7 +41,6 @@ public class IntermediateSkill_Exercise1 {
     }
 }
 
-
 /*
 Task 1:
 Given an unsorted array and a target sum, write a program to find all pairs

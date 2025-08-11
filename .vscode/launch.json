@@ -3,6 +3,104 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IntermediateSkills",
+      "request": "launch",
+      "mainClass": "Inheritance.SkillBuildingExercises.IntermediateSkills",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "BeginnerSkills",
+      "request": "launch",
+      "mainClass": "Inheritance.SkillBuildingExercises.BeginnerSkills",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "recurseArraySum",
+      "request": "launch",
+      "mainClass": "RecursionDP.recurseArraySum",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "AdvancedSkillBuilding",
+      "request": "launch",
+      "mainClass": "AdvancedSkillBuilding",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "IntermediateSkill_Exercise1",
+      "request": "launch",
+      "mainClass": "IntermediateSkill_Exercise1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "PracticeAssignment1",
+      "request": "launch",
+      "mainClass": "PracticeAssignments.PracticeAssignment1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "BroCodeStack",
+      "request": "launch",
+      "mainClass": "StacksAndQueues.BroCodeStack",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "BeginnerSkills",
+      "request": "launch",
+      "mainClass": "StacksAndQueues.BeginnerSkills",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "BeginnerSkills1",
+      "request": "launch",
+      "mainClass": "BeginnerSkills1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "BeginnerSkills",
+      "request": "launch",
+      "mainClass": "BeginnerSkills",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "NumberSearch",
+      "request": "launch",
+      "mainClass": "Answers.NumberSearch",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "M4LabB",
+      "request": "launch",
+      "mainClass": "Answers.M4LabB",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "M4Assignment",
+      "request": "launch",
+      "mainClass": "Answers.M4Assignment",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "FruitPriceList",
+      "request": "launch",
+      "mainClass": "Answers.FruitPriceList",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
       "name": "IntermediateSkillsEx1",
       "request": "launch",
       "mainClass": "SkillBuildingExercises.IntermediateSkillsEx1",
