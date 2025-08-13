@@ -3,6 +3,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PracticeAssignment1",
+      "request": "launch",
+      "mainClass": "TemplatesOrGenerics.PracticeAssignments.PracticeAssignment1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "BeginnerSkills",
+      "request": "launch",
+      "mainClass": "PSPCOREPRACTICE.DataStructuresAndAlgorithms.StacksAndQueues.BeginnerSkills",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "PracticeAssignment1",
+      "request": "launch",
+      "mainClass": "ExceptionHandlingAndFileHandling.PracticeAssignments.PracticeAssignment1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "M4LabA",
+      "request": "launch",
+      "mainClass": "Answers.M4LabA",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "PracticeAssignment1",
+      "request": "launch",
+      "mainClass": "OOPConcepts.PracticeAssignments.PracticeAssignment1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "PracticeAssignment1",
+      "request": "launch",
+      "mainClass": "Polymorphism.PracticeAssignments.PracticeAssignment1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "BeginnerSkills",
+      "request": "launch",
+      "mainClass": "Polymorphism.SkillBuildingAssignments.BeginnerSkills",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "PracticeAssignment1",
+      "request": "launch",
+      "mainClass": "Inheritance.PracticeAssignments.PracticeAssignment1",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
       "name": "AdvancedSkills",
       "request": "launch",
       "mainClass": "Inheritance.SkillBuildingExercises.AdvancedSkills",

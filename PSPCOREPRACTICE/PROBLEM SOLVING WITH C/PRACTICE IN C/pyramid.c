@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(){
-    int n = 5;
+    int n = 11;
     int repeat = 1;
     int spaces = n-1;
     char spaceadder[20] = " ";
@@ -20,7 +20,6 @@ int main(){
         printf("\n");
     }
 }
-
 /*
    4*
   3***

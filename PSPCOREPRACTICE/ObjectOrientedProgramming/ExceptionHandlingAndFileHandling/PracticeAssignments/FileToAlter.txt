@@ -1,0 +1,2 @@
+id: 0, name: BookNum1, author: Auth1
+id: 1, name: BookNum2, author: Auth2

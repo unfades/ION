@@ -1,7 +1,6 @@
 package Answers;
 
 import java.io.BufferedReader; 
-
 import java.io.FileReader; 
 import java.util.ArrayList;
 import java.util.List; 
@@ -59,7 +58,7 @@ public class M4LabA {
         //5. Your code goes here 
         int j = 0; 
         for(int i: numbers){
-            System.out.println("The number at position " + j +" is "+ i);
+            System.out.println("The number at position " + j +" is "+ numbers.get(j));
             j++;
         }
     }
