@@ -2,7 +2,6 @@ package TemplatesOrGenerics.PracticeAssignments;
 
 //code from old assignments I did used, I just made it <T> and objects as T
 //then in the object references specified they are 'T' objects thats it done easy.
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -102,8 +101,9 @@ public class PracticeAssignment1 {
         qG.enqueue(yuh);
         qG.enqueue(yuh);
         qG.displayQueue();
-
-        QueueOfGenerics<StudentMenu> qG2 = new QueueOfGenerics();
+        //gotta specify the type of object for the generic class its going into
+        //see, like this
+        QueueOfGenerics<StudentMenu> qG2 = new QueueOfGenerics<>();
         StudentMenu studMenu = new StudentMenu();
         studMenu.addStudent("rav", "A+");
         qG2.enqueue(studMenu); //now qG2 holds object of StudentMenu, the power of Generics in java
