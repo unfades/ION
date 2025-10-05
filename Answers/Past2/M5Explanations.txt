@@ -1,0 +1,111 @@
+M5LabA Explained:
+
+In the enum part we did this:
+
+declared an enum called Fruit because we are gonna add Fruits inside it.
+
+Inside the enum, made 2 private Strings called color and taste.
+These are going to be used within the constructure we call Fruit which is set the same name as the enum name.
+
+the constructur called Fruit then takes in 2 strings color and taste, and sets the color and taste in the enum as them.
+So that it can be set once someone uses it and sets a value from the enum to that. Like Fruit myFruit = Fruit.STRAWBERRY;
+
+we made a getColor method in the enum to print the color within a string.
+we also made a getTaste method in the enum to print the taste of the fruit in a string.
+Like this: System.out.println("fruit color is " + myFruit.Getcolor() + " and taste is " + myFruit.getTaste());
+
+then inside main() we just did the following:
+
+Made a Fruit enum type array called fruits and put all the values in the enum Fruit inside of it.
+So it contains all the Fruit enums and has them all available.
+
+Next we just printed all the values out using a foreach loop
+Inside the foreach loop we just printed out the values with little descriptions of everything 
+like fruit enum's name, fruit color, and fruit taste.
+This printed out the details of each fruit of the enum and their details.
+
+That's it for M5LabA
+----------------------------------------------------------------------------
+M5LabB Explained
+
+This one is regarding Autoboxing and also unboxing in Java.
+
+All we learned here is to work out how to 1. Autobox and 2. Unbox.
+Every primitive has its corresponding Wrapper class for Autoboxing. Ex: Integer for int, Character for char, etc.
+
+In this lab all we did was this:
+
+declared an int num1 assigned it an int value 42
+declared an Integer type variable wrappedNum1 and set its value as num1.
+Integer wrappedNum1 = num1.
+This is autoboxing.
+
+then we did the same exact thing for double num2 and char ch1.
+Double wrappedNum2 = num2;
+Character wrappedChar = ch1;
+
+next we printed them out.
+
+Then we unboxed. Basically just setting these Autoboxed values and assigning primitives with them.
+This is called Unboxing.
+
+int backToNum1 = wrappedNum1;
+double backtoNum2 = wrappedNum2;
+char backtoCHar = wrappedChar;
+
+then we just printed them out again.
+
+we made a method called add() in the class that holds main() 
+all it does is it takes int a, int b and it returns a+b thats all.
+
+in main() we called add()
+
+and passed within it wrappedNum1 and backToNum1 we set the returned value to an int variable called result1
+int result1 = add(num1, backToNum1);
+then we printed the result out.
+
+then we declared two wrapper class Integers called toSum1 and toSum2
+
+then we set their values as 1 and 2.
+
+then inside a primitve type result2 we stored their addition using .intValue() methods from the Integer class.
+This is how autoboxed values are added.
+Then we printed them out as result2.
+
+That's all we did for this lab.
+------------------------------------------------------------------------------------
+
+M5 Assignment Explained
+
+we made another enum called Code
+
+Inside the enum code:
+
+then we initialized the values provided in the problem statement in the enum, all the color codes.
+RED,BLUE,ORANGE,CLEAR, etc etc.
+
+Then we declared 2 private strings meaning and codeName
+
+codeName to get the name of the enum Code, then meaning to get the meaning of the enum
+
+then we made a constructor called Code and inside it we put values codeName, meaning
+and set codenames and meanings inside it also.
+
+then methods were made called getMeaning and also getCodeName
+
+each was designed with special conditions in mind, if the codes were not red or yellow, then just return their meaning
+but if the codes were red or yellow, then we also returned red, yellow, with the accompanying actions like also returning code greens' GREEN.meaning
+and the GREEN.codeName as instructed in the problem statement.
+
+lastly to display the code name we just made a method called display
+
+Inside main():
+
+made an array of type Code called codes then set all values in the enum Code to that array.
+Then we displayed all the codes using the display() method from enum in a foreach loop
+looping through the codes array displaying all the values in the enum stored in the array.
+
+next another foreach loop displayed all the meanings and the codenames within the codes
+array via the methods getMeaning() and getCodeName() from the enum.
+
+That's all we did.

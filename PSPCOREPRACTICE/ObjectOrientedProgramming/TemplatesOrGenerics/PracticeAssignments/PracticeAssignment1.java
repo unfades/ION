@@ -1,6 +1,6 @@
 package TemplatesOrGenerics.PracticeAssignments;
 
-//code from old assignments I did used, I just made it <T> and objects as T
+//code from old assignments I did used, I just made it <T> and objects as T.
 //then in the object references specified they are 'T' objects thats it done easy.
 import java.util.ArrayList;
 import java.util.List;

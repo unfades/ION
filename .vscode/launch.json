@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MainClass",
+      "request": "launch",
+      "mainClass": "Answers.MainClass",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Answers.Main",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "AssignmentPrompt",
+      "request": "launch",
+      "mainClass": "Answers.AssignmentPrompt",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "M5Assignment",
+      "request": "launch",
+      "mainClass": "Answers.M5Assignment",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "M5LabA",
+      "request": "launch",
+      "mainClass": "Answers.M5LabA",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
+      "name": "M5LabB",
+      "request": "launch",
+      "mainClass": "Answers.M5LabB",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
       "name": "PracticeAssignment1",
       "request": "launch",
       "mainClass": "TemplatesOrGenerics.PracticeAssignments.PracticeAssignment1",

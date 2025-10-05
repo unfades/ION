@@ -9,12 +9,10 @@ int main(){
     char pointadder[20] = "*";
     char twiceadder[20] ="**";
     for(int i = 0; i<n; i++){
-        for(int j = 0; j<spaces; j++){
+        for(int j = 0; j<spaces; j++)
             printf("%s", spaceadder);
-        }
-        for(int j = 0; j<repeat; j++){
+        for(int j = 0; j<repeat; j++)
             printf("%s", pointadder);
-        }
         spaces--;
         strcat(pointadder, twiceadder);
         printf("\n");
