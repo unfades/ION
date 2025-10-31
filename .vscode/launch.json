@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Mine",
+      "request": "launch",
+      "mainClass": "SystemDesign.Mine",
+      "projectName": "PSPION_349b735"
+    },
+    {
+      "type": "java",
       "name": "MainClass",
       "request": "launch",
       "mainClass": "Answers.MainClass",
