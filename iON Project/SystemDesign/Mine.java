@@ -150,6 +150,6 @@ public class Mine{
                     input = 0; break;
             }
         }
-        sc.close();
+         sc.close();
     }
 }
